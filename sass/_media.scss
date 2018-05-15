@@ -1,0 +1,1063 @@
+@import "vars";
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+	.about{
+		height: 900px;
+	}
+	.about__col{
+		.about__content{
+			.about__img{
+				height: 600px;
+				width: 455px;
+			}
+			.about__information{
+				height: 450px;
+				width: 552px;
+				.about__text{
+					padding: 0px 44px; 
+					h1{
+						padding-top: 35px;
+					}
+					p{
+						padding-top: 35px;
+					}
+					:nth-child(2){
+						padding-top: 14px;
+					}
+				}
+			}
+		}
+	}
+
+	.focus__card{
+		width: 213px;
+		height: 320px;
+	}
+
+	.portfolio__card{
+		height: 248px;
+		width: 300px;
+	}
+
+	.team__card{
+		width: 223px;
+    	height: 350px;
+	}
+	.team__about_david-info{
+		&::after{
+			left: 38%;
+		}
+	}
+	.team__about_anna-info{
+		&::after{
+			left: 63.9%;
+		}
+	}
+	.team__about_jason-info{
+		&::after{
+			left: 89.7%;
+		}
+	}
+
+	.pricing__card{
+		width: 300px;
+	}
+
+
+	.footer{
+		.row{
+			:last-child(){
+				.footer__elem{
+					padding-bottom: 34px;
+				}
+			}
+		}
+	}
+	.footer__elem-links{
+		width: 100%;
+	}
+}
+	/**/
+	
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 990px){
+	.menu__nav ul{
+		display: none;
+	}
+	.menu__col-nav{
+		position: relative;
+	}
+	.hamburger{
+		display: block;
+		position: absolute;
+		right: 0;
+		top: -25px;
+	}
+
+	.main-block__title h1{
+		font-size: 50px;
+	}
+
+	.about{
+		height: 900px;
+	}
+	.about__col{
+		.about__content{
+			.about__img{
+				height: 600px;
+				width: 455px;
+			}
+			.about__information{
+				height: 350px;
+				width: 452px;
+				margin-top: 274px;
+				.about__text{
+					padding: 0px 44px; 
+					h1{
+						padding-top: 15px;
+						font-size: 40px;
+					}
+					p{
+						padding-top: 15px;
+						font-size: 13px;
+					}
+					:nth-child(2){
+						padding-top: 0px;
+					}
+				}
+			}
+		}
+	}
+
+	.focus{
+		height: 1074px;
+	}
+	.focus__card{
+		margin-bottom: 30px;	
+	}
+
+	.portfolio{
+		height: 1685px;
+	}
+
+	.team__card{
+		width: 163px;
+		height: 300px;
+		.team__card-title h3{
+			font-size: 15px;
+		}
+	}
+
+	.team__about{
+		padding: 0 55px;
+		.team__about-title{
+			margin-top: 18px;
+		}
+		.team__about-content{
+			justify-content: space-between;
+			display: flex;
+			.team__about-text{
+				width: 640px;
+				p{
+					font-size: 13px;
+				}
+			}
+			.team__links{
+				.team__about-link{
+					padding: 0 15px;
+				}
+				.team__about-socials a{
+					font-size: 13px;
+				}
+			}
+		}
+	}
+	.team__about_michael-info{
+		&::after{
+			left: 12.2%;
+		}
+	}
+	.team__about_david-info{
+		&::after{
+			left: 38.2%;
+		}
+	}
+	.team__about_anna-info{
+		&::after{
+			left: 65.2%;
+		}
+	}
+	.team__about_jason-info{
+		&::after{
+			left: 90.2%;
+		}
+	}
+
+	.pricing__card{
+		width: 230px;
+	}
+
+	.testimonials__img{
+		height: 360px;
+	}
+	.testimonials__card{
+		.testimonials__card-text p{
+			font-size: 12px;
+		}
+		.testimonials__card-title{
+			h2{
+				font-size: 35px;
+				line-height: 40px;
+				margin-bottom: 15px;
+			}
+		}
+	}
+	.testimonials__carousel .owl-dots{
+		bottom: -10px;
+	}
+	.footer__elem{
+		padding: 0 15px;
+	}
+}
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 770px){
+
+	.preloader .pulse{
+		margin-left: -20px;
+	}
+
+	.portfolio{
+		height: 1485px;
+	}
+	.portfolio__card{
+		height: 200px;
+		width: 250px;
+		.portfolio__card-border{
+			opacity: 1;
+			box-shadow: 0px 0px 30px rgba(#000,.1);
+		}
+	}
+
+	.team__about{
+		display: none;
+	}
+	.team__card{
+		width: 223px;
+		height: 350px;
+		margin-bottom: 50px;
+	}
+
+	.stats .container .row .col-3{
+		p{
+			text-align: center;
+			font-size: 13px;
+		}
+	}
+	.steps__card{
+		height: 250px;
+		width: 400px;
+		margin-bottom: 60px;
+		.steps__card-content .steps__card-text h2{
+			font-size: 20px;
+		}
+	}
+	.steps .steps__image-box{
+		.steps__image{
+			width: 456px;
+		}
+	}
+	
+	.pricing .container .row{
+		display: flex;
+		:nth-child(1){
+			order: 1;
+			.pricing__card-title, .pricing__price, .pricing__card-button, .pricing__card-list{
+				order: 0;
+			}
+		}
+		:nth-child(2){
+			order: 3;
+		}
+		:nth-child(3){
+			order: 2;
+		}
+	}
+	.pricing__card{
+		margin-bottom: 35px;
+		width: 240px;
+	}
+	.pricing{
+		height: 1549px;
+	}
+
+	.testimonials{
+		height: 770px;
+	}
+	.testimonials__img{
+		height: 260px;
+	}
+	.testimonials__card{
+		height: 222px;
+		.testimonials__card-text p{
+			font-size: 12px;
+			margin-left: 28px;
+			margin-top: 21px;
+			padding-right: 20px;
+			line-height: 15px;
+		}
+		.testimonials__card-title{
+			position: relative;
+			width: 80%;
+			margin-left: 28px;
+			h2{
+				position: absolute;
+				top: 35px;
+				font-size: 35px;
+				line-height: 20px;
+				margin-bottom: 15px;
+			}
+			h3{
+				position: absolute;
+				right: 0;
+				top: 30px;
+				font-size: 16px;
+			}
+			p{
+				position: absolute;
+				right: 0;
+				top: 40px;
+				font-size: 12px;
+			}
+		}
+	}
+	.testimonials__carousel .owl-dots{
+		.owl-dot{
+			height: 12px;
+            width: 12px;
+		}
+		.active{
+            &::after{
+                width:6px;
+                height:6px;
+                left: 2px;
+                top: 2px;
+            }
+        }
+	}
+	.footer__elem{
+		padding: 0 5px;
+	}
+	.footer__logo p{
+		font-size: 40px;
+	}
+
+	.will-be{
+		h1{
+			font-size: 40px;
+		}
+	}
+} 
+
+	/**/
+
+@media only screen and (max-width : 576px){
+	.preloader .pulse{
+		left: 45%;
+		margin-left: -10px;
+	}
+
+	.main-block__title h1{
+		font-size: 40px;
+	}
+	.main-block__advantages .main-block__advantage{
+			margin-right: 0;
+			padding: 0 10px;
+	}
+
+	.about{
+		height: 770px;
+	}
+	.about__col{
+		.about__content{
+			.about__img{
+
+				height: 450px;
+				width: 355px;
+			}
+			.about__information{
+				height: 350px;
+				width: 372px;
+				margin-right: 20px;
+				margin-top: 200px;
+				.about__text{
+					padding: 0px 24px; 
+					h1{
+						padding-top: 5px;
+						font-size: 30px;
+					}
+					p{
+						padding-top: 10px;
+						font-size: 12px;
+					}
+				}
+			}
+		}
+	}
+
+	.block-title{
+		h5{
+			font-size: 16px;
+			text-align: center;
+			padding: 0 20px;
+		}
+	}
+
+	.focus__card{
+		width: 190px;
+		height: 300px;
+		p{
+			font-size: 13px;
+		}
+	}
+
+	.video, .video-block, .video__starter{
+		height: 350px;
+	}
+
+	.portfolio{
+		height: 1370px;
+	}
+	.portfolio__card{
+		height: 170px;
+		width: 210px;
+	}
+
+	.team__card{
+		width: 203px;
+		height: 330px;
+		margin-bottom: 30px;
+	}
+
+	.steps .steps__image-box{
+		.steps__image{
+			width: 380px;
+		}
+	}
+	.steps__card{
+		height: 220px;
+		width: 350px;
+		margin: 40px 0;
+		.steps__card-content .steps__card-text {
+			h2{
+				font-size: 18px;
+			}
+			p{
+				font-size: 13px;
+			}
+		}
+	}
+
+	.pricing__card{
+		margin-bottom: 35px;
+		height: 435px;
+		.pricing__card-title h3{
+			margin: 10px 0;
+		}
+		.pricing__price{
+			height: 88px;
+			width: 88px;
+			padding-top: 20px;
+			span, p{
+				line-height: 1.25;
+			}
+			span{
+				font-size: 20px;
+			}
+			&::after{
+				left: 2px;
+				top: 2px;
+				height: 80px;
+				width: 80px;
+			}
+		}
+		.pricing__card-list{
+			padding-top: 20px;
+			line-height: 2;
+		}
+	}
+	.pricing{
+		height: 1800px;
+	}
+
+	.will-be{
+		h1{
+			font-size: 30px;
+		}
+	}
+
+	.footer__elem{
+		padding: 0 5px;
+		h5{
+			font-size: 15px;
+		}
+		p{
+			font-size: 11px;
+			padding-right: 5px;
+		}
+		.footer__elem-links{
+			a i{
+				font-size: 22px;
+			}
+			a{
+				margin: 3px;
+			}
+			width: 50%;
+			flex-wrap: wrap;
+		}
+	}
+	.footer__logo p{
+		font-size: 35px;
+	}
+	.footer{
+		.row{
+			:last-child(){
+				.footer__elem{
+					padding-bottom: 24px;
+				}
+			}
+		}
+	}
+}
+
+ 
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+	.preloader .pulse{
+		left: 40%;
+		margin-left: -2px;
+	}
+	
+	.about__col{
+		.about__content{
+			.about__information{
+				height: 280px;
+				width: 300px;
+				margin-right: 25px;
+				margin-top: 240px;
+				.about__text{
+					padding: 0px 18px; 
+					h1{
+						padding-top: 5px;
+						font-size: 25px;
+					}
+					p{
+						padding-top: 10px;
+						font-size: 11px;
+						line-height: 1.4;
+					}
+				}
+			}
+		}
+	}
+
+	.focus__card{
+		width: 170px;
+		height: 270px;
+		h3{
+			font-size: 16px;
+		}
+		img{
+			margin-top: 30px;
+		}
+		p{
+			font-size: 12px;
+			padding: 0 15px;
+		}
+	}
+
+	.video, .video-block, .video__starter{
+		height: 300px;
+	}
+	.video__starter{
+		h2{
+			font-size: 25px;
+			text-align: center;
+		}
+	}
+
+	.portfolio{
+		height: 2100px;
+	}
+	.portfolio__col{
+		max-width: 60%;
+	}
+
+	.team{
+		height: 1900px;
+	}
+	.team__card{
+		width: 263px;
+		height: 350px;
+		margin: auto;
+		margin-bottom: 30px;
+	}
+	.team__col{
+		min-width: 80%;
+		max-width: 80%;
+	}
+
+	.steps .steps__image-box{
+		.steps__image{
+			width: 300px;
+		}
+	}
+	.steps__card{
+		height: 220px;
+		width: 280px;
+		margin: 40px 0;
+		.steps__card-content{
+			.steps__card-number{
+				h1{
+					font-size: 35px;
+				}
+			}
+			.steps__card-text {
+				h2{
+					font-size: 14px;
+				}
+				p{
+					font-size: 11px;
+				}
+			}
+		}
+	}
+
+	.pricing__col{
+		max-width: 80%;
+	}
+
+	.testimonials__carousel{
+		&-item{
+			flex-direction: column;
+		}
+	}
+	.testimonials{
+		height: 880px;
+	}
+	.testimonials__img{
+		height: 270px;
+		width: 300px;
+	}
+	.testimonials__card{
+		height: 222px;
+		width: 300px;
+		.testimonials__card-title{
+			h3{
+				font-size: 14px;
+			}
+			p{
+				font-size: 11px;
+			}
+		}
+	}
+	.testimonials__carousel .owl-dots{
+		.owl-dot{
+			height: 12px;
+            width: 12px;
+		}
+		.active{
+            &::after{
+                width:6px;
+                height:6px;
+                left: 2px;
+                top: 2px;
+            }
+        }
+	}
+	.testimonials__carousel .owl-dots{
+		position: relative;
+		justify-content: center;
+		bottom: 0;
+	}
+
+	.footer__elem{
+		padding: 0 5px;
+		h5{
+			font-size: 12px;
+		}
+		p{
+			font-size: 11px;
+			padding-right: 30px;
+		}
+		.footer__elem-links{
+			a i{
+				font-size: 22px;
+			}
+			a{
+				margin: 3px;
+			}
+			width: 70%;
+			flex-wrap: wrap;
+		}
+	}
+	.footer__logo p{
+		font-size: 28px;
+	}
+	.footer{
+		.row{
+			:last-child(){
+				.footer__elem{
+					padding-bottom: 64px;
+				}
+			}
+		}
+	}
+}
+	/**/
+
+@media only screen and (max-width : 400px){
+	.main-block__advantages{
+		flex-wrap: wrap;
+		margin-top: 50px;
+	}
+	.main-block__advantage{
+		margin: 0;
+		margin-bottom: 30px;
+	}
+	.main-block__title h1{
+		font-size: 35px;
+	}
+
+	.about__col{
+		.about__content{
+			.about__img{
+				width: 290px;
+				height: 380px;
+				position: relative;
+				margin: auto;
+				margin-top: 80px;
+			}
+			.about__information{
+				position: relative;
+				height: 340px;
+				width: 250px;
+				margin: auto;
+				margin-top: -250px;
+				.about__text{
+					padding: 0px 18px; 
+					h1{
+						padding-top: 5px;
+						font-size: 25px;
+					}
+					p{
+						padding-top: 10px;
+						font-size: 11px;
+						line-height: 1.4;
+					}
+				}
+			}
+		}
+	}
+	.about{
+		height: 640px;
+	}
+
+	.block-title{
+		h1{
+			font-size: 40px;
+		}
+	}
+
+	.focus__col-card{
+		min-width: 55%;
+		max-width: 70%;
+	}
+	.focus{
+		height: 1580px;
+	}
+
+	.video, .video-block, .video__starter{
+		height: 250px;
+	}
+	.video__starter{
+		h2{
+			font-size: 20px;
+			text-align: center;
+		}
+		a{
+			margin: 20px 0;
+			img{
+				height: 50px;
+				width: 50px;
+			}
+		}
+	}
+
+	.portfolio__col{
+		max-width: 70%;
+	}
+
+	.team__card{
+		width: 100%;
+	}
+
+	.stats{
+		.stats__col{
+			min-width: 50%;
+			margin-top: 58px;
+			img{
+				height: 27px;
+				width: 30px;
+			}
+			h3{
+				font-size: 13px;
+			}
+			p{
+				font-size: 11px;
+			}
+		}
+	}
+
+	.testimonials__img{
+		height: 260px;
+		width: 290px;
+	}
+	.testimonials__card{
+		width: 290px;
+		.testimonials__card-text{
+			span{
+				font-size: 200px;
+			}
+			p{
+				font-size: 11px;
+			}
+		}
+		.testimonials__card-title{
+			h3{
+				font-size: 14px;
+			}
+			p{
+				font-size: 11px;
+			}
+		}
+	}
+
+	.footer__elem{
+		height: 150px;
+		margin-top: 20px;
+		.footer__elem-links{
+			a{
+				margin: 8px;
+			}
+			width: 100%;
+			justify-content: space-around;
+		}
+	}
+	.footer__logo{
+		height: 150px;
+		margin-top: 20px;
+	}
+	.footer{
+		.accent-line, .orange-line{
+			display: none;
+		}
+	}
+	.footer__col{
+		max-width: 55%;
+		min-width: 40%;
+	}
+	.footer{
+		.row{
+			:last-child(){
+				.footer__elem{
+					padding-bottom: 50px;
+				}
+			}
+		}
+	}
+	.go-up{
+		font-size: 35px;
+		bottom: 20px;
+		&.active{
+			right: 20px;
+		}
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){
+	.hamburger{
+		right: 30px;
+	}
+
+	.main-block__title h1{
+		font-size: 25px;
+		padding: 0 20px;
+	}
+	.main-block__col{
+		max-width: 90%;
+	}
+
+	.about__col{
+		max-width: 90%;
+		.about__content{
+			.about__img{
+				width: 230px;
+				height: 340px;
+			}
+			.about__information{
+				height: 390px;
+				width: 200px;
+			}
+		}
+	}
+
+	.block-title{
+		padding-right: 20px;
+		h1{
+			font-size: 30px;
+		}
+		h5{
+			padding: 0 35px;
+		}
+	}
+
+	.focus__card{
+		width: 130px;
+		height: 330px; 
+	}
+	.focus__col-card{
+		margin-left: -10px;
+	}
+	.focus{
+		height: 1780px;
+	}
+
+	.video__starter{
+		padding-right: 20px;
+		h2{
+			font-size: 18px;
+		}
+	}
+
+	.portfolio__col{
+		min-width: 60%;
+	}
+	.portfolio__card{
+		margin-left: -30px;
+	}
+
+	.team__card{
+		margin-left: -12px;
+	}
+
+	.stats{
+		.stats__col{
+			min-width: 42%;
+			margin-top: 48px;
+			.dought{
+				margin-top: 15px;
+			}
+		}
+	}
+
+	.steps{
+		height: 1626px;
+	}
+	.steps .steps__image-box{
+		.steps__image{
+			display: none;
+		}
+	}
+	.steps__card{
+		height: 240px;
+		width: 230px;
+		margin-right:38px;
+		margin-left: 12px;
+		margin-bottom: 10px;
+		.steps__card-content{
+			padding: 10px 10px;
+			.steps__card-number{
+				h1{
+					font-size: 25px;
+
+				}
+			}
+			.steps__card-text {
+				h2{
+					font-size: 13px;
+				}
+			}
+		}
+	}
+
+	.pricing__card{
+		margin-left: -28px;
+	}
+
+	.testimonials__img{
+		height: 240px;
+		width: 260px;
+		margin-left: -35px;
+	}
+	.testimonials__card{
+		width: 260px;
+		height: 252px;
+		margin-left: -35px;
+	}
+	.owl-dots{
+		width: 260px;
+	}
+
+	.footer__elem{
+		margin-left: -31px;
+		padding: 0 20px;
+	}
+	.footer__logo{
+		margin-left: -31px;
+		padding-right: 25px;
+	}
+
+	.go-up{
+		font-size: 30px;
+		bottom: 10px;
+		&.active{
+			right: 10px;
+		}
+	}
+}
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px){}
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px){}
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px){}
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px){}
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px){}
+	/**/

@@ -1,0 +1,29 @@
+@import "_mixins/font-face";
+
+
+@include font-face("poppins","../fonts/poppins/Regular/Poppins-Regular", 100);
+@include font-face("poppins","../fonts/poppins/Medium/Poppins-Medium", medium);
+@include font-face("poppins","../fonts/poppins/Bold/Poppins-Bold", bold);
+@include font-face("poppins","../fonts/poppins/SemiBold/Poppins-SemiBold", 600);
+
+@include font-face("libreBaskerville","../fonts/libreBaskerville/Regular/LibreBaskerville-Regular", 100);
+@include font-face("libreBaskerville","../fonts/libreBaskerville/Italic/LibreBaskerville-Italic", 200);
+@include font-face("libreBaskerville","../fonts/libreBaskerville/Bold/LibreBaskerville-Bold", 300);
+
+@include font-face("arizonia","../fonts/arizonia/Arizonia-Regular");
+
+@include font-face("sacramento","../fonts/Sacramento/Sacramento-Regular");
+
+
+/* @include font-face("raleway","../fonts/RalewayRegular/Raleway");
+@include font-face("raleway","../fonts/RalewayBold/RalewayBold", bold);
+@include font-face("raleway","../fonts/RalewayExtraBold/RalewayExtraBold", 800);
+@include font-face("raleway","../fonts/RalewayLight/RalewayLight", 300);
+@include font-face("raleway","../fonts/RalewaySemiBold/RalewaySemiBold", 600);
+@include font-face("raleway","../fonts/RalewayThin/RalewayThin", 100);
+@include font-face("firasans","../fonts/FiraSansRegular/FiraSansRegular");
+ */
+//@include font-face("raleway-f","../fonts//", 800);
+
+
+
