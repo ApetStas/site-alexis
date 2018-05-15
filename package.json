@@ -1,0 +1,21 @@
+{
+  "name": "alexis",
+  "version": "1.0.0",
+  "description": "Site for summary",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ApetStas",
+  "license": "GNU",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^3.2.1"
+  },
+  "dependencies": {}
+}
